@@ -9,170 +9,270 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="javascript/parallax.js"></script>
-  <script src="javascript/actions.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
+
   <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
 
-
-  <div class="navbar fixed-top navbar-light navbar-expand-lg">
-    <a class="navbar-brand" href="#">Guita Dan-Constantin</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ms-auto">
-        <a class="nav-item nav-link active" href="#">About</a>
-        <a class="nav-item nav-link" href="#">Skills</a>
-        <a class="nav-item nav-link" href="#">Experience</a>
-        <a class="nav-item nav-link" href="#">Education</a>
-        <a class="nav-item nav-link" href="#">Portfolio</a>
+  <div class="navbar fixed-top navbar-light navbar-expand-lg" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">Guita Dan-Constantin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-item nav-link active" href="#about">About</a>
+          <a class="nav-item nav-link" href="#skill">Skills</a>
+          <a class="nav-item nav-link" href="#Experience">Experience</a>
+          <a class="nav-item nav-link" href="#education">Education</a>
+        </div>
       </div>
+    </div>
+
+  </div>
+
+  <div class="middle-contain-over-parallax">
+    <div class="section1">
+      <div class="h2 title text-white">Guita Dan-Constantin</div>
+      <p class="category text-white">Passionate IT graduate, Blockchain enthusiast, Independent Web Developer</p>
+      <a class="btn btn-primary" href="#contact">Download Full CV</a>
     </div>
   </div>
 
+  <div class="upperbody">
+    <img class="thumbnail" src="images/bg-abstract.jpg" alt="image">
 
 
-  <div class="parallax">
-    <div class="parallax__layer parallax__layer--back">
-      <div class="container">
-        <div class="h2 title text-white">Guita Dan-Constantin</div>
-        <p class="category text-white">Passionate IT graduate, Blockchain enthusiast, Independent Web Developer</p>
-        <a class="btn btn-primary" href="#contact">Download Full CV</a>
-      </div>
+
+
+  </div>
+
+  <div class="section" id="buttons">
+    <div class="container">
+      <a class="btn btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>
+      <a class="btn btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-linkedin"></i></a>
     </div>
-    <div class="parallax__layer parallax__layer--base">
-      <div class="section" id="buttons">
-        <div class="container">
-          <a class="btn btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>
-          <a class="btn btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-linkedin"></i></a>
-        </div>
-      </div>
+  </div>
 
-      <div class="section" id="about">
-        <div class="container">
-          <div class="card" data-aos="fade-up" data-aos-offset="10">
-            <div class="row">
-              <div class="col-lg-6 col-md-12">
-                <div class="card-body">
-                  <div class="h4 mt-0 title">About</div>
-                  <p>Hello! I am Dan Guita. I'm a passionate IT graduate, with </p>
-                  <p></a></p>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-12">
-                <div class="card-body">
-                  <div class="h4 mt-0 title">Basic Information</div>
-                  <div class="row">
-                    <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-                    <div class="col-sm-8">26</div>
-                  </div>
-                  <div class="row mt-3">
-                    <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-                    <div class="col-sm-8">dan.guita@yahoo.com</div>
-                  </div>
-                  <div class="row mt-3">
-                    <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
-                    <div class="col-sm-8">0743899261</div>
-                  </div>
-                  <div class="row mt-3">
-                    <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-                    <div class="col-sm-8">Constantin Noica nr.14</div>
-                  </div>
-                  <div class="row mt-3">
-                    <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-                    <div class="col-sm-8">Romanian, English, German</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- skills card -->
-
-      <div class="section" id="skill">
-        <div class="container">
-          <div class="h4 text-center mb-4 title">Professional Skills Web designer</div>
-          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+  <div class="section" id="about">
+    <div class="container">
+      <div class="card" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
             <div class="card-body">
+              <div class="h4 mt-0 title">About</div>
+              <p class="despre">Highly organized and detail-oriented, looking for a position as web developer, both Back-End and/or Front-End (part-time).
+                 I've been creating websites and simple apps as a hobby since 2015.
+                 Recently, I started an online Smart Contract auditing business(part-time) for Ethereum based Blockchain Tokens, along with a partner.
+                 </p>
+              <p></a></p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="card-body">
+              <div class="h4 mt-0 title">Basic Information</div>
               <div class="row">
-                <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span
-                        class="progress-value">80%</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span
-                        class="progress-value">75%</span>
-                    </div>
-                  </div>
-                </div>
+                <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+                <div class="col-sm-8">26</div>
               </div>
-
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span
-                        class="progress-value">60%</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">SASS</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span
-                        class="progress-value">60%</span>
-                    </div>
-                  </div>
-                </div>
+              <div class="row mt-3">
+                <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+                <div class="col-sm-8">dan.guita@yahoo.com</div>
               </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">Bootstrap</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span
-                        class="progress-value">75%</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">Photoshop</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span
-                        class="progress-value">70%</span>
-                    </div>
-                  </div>
-                </div>
+              <div class="row mt-3">
+                <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+                <div class="col-sm-8">0743899261</div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+                <div class="col-sm-8">Constantin Noica nr.14</div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+                <div class="col-sm-8">Romanian, English, German</div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
+  <!-- Education -->
+  <div class="section" id="education">
+    <div class="container">
+      <div class="card" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="card-body">
+              <div class="h4 mt-0 title">Education</div><br>
+              <p><strong>(2014-2019) Faculty Of Electronics, Telecommunication And Information Technology</strong> - UTCN, Cluj-Napoca</p>
+              <p>• Technologies and Systems of Telecomunications (in English) – 3 years </p>
+              <p>• Economic Engineering in Electric, Electronic and Power Management Systems - 2 years</p>
+              <br>
+              <p><strong>(2010-2014) “Gheorghe Lazar” National College</strong> - Sibiu</p>
+              <p>Mathematics - Informatics(Intensive Informatics) </p>
+            </div>
+          </div>
 
-
-
-
-
+        </div>
+      </div>
     </div>
   </div>
 
 
-  <script type="text/javascript">
+  <!-- end of edu -->
+  <!-- skills card -->
 
+
+
+
+  <div class="section" id="skill">
+    <div class="container">
+      <div class="card" data-aos="fade-up">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="h4 mt-0 title">Technical Skills</div><br>
+              <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div><span
+                    class="progress-value">&nbsp90%</span>
+                </div>
+              </div>
+              <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span
+                    class="progress-value">&nbsp80%</span>
+                </div>
+              </div>
+              <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span
+                    class="progress-value">&nbsp70%</span>
+                </div>
+              </div>
+              <div class="progress-container progress-primary"><span class="progress-badge">Wordpress</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div><span
+                    class="progress-value">&nbsp90%</span>
+                </div>
+              </div>
+              <div class="progress-container progress-primary"><span class="progress-badge">PHP</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span
+                    class="progress-value">&nbsp60%</span>
+                </div>
+              </div>
+              <div class="progress-container progress-primary"><span class="progress-badge">C++, C#, Java, MYSQL</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span
+                    class="progress-value">&nbsp50%</span>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="h4 mt-0 title">Soft Skills</div>
+              <!-- <div class="col-sm-12">Developed through the years of being a Team-Leader </div> -->
+              <br>
+
+
+              <div class="row">
+
+                <div class="col-sm-12"><strong>• Communication with technical / non-technical people</strong></div>
+                <div class="col-sm-12"><strong>• Teamwork and coordination</strong></div>
+                <div class="col-sm-12"><strong>• Responsibility</strong></div>
+                <div class="col-sm-12"><strong>• Professionalism</strong></div>
+                <div class="col-sm-12"><strong>• Short-term Decision-making </strong></div>
+                <div class="col-sm-12"><strong>• Time-management </strong></div>
+                <div class="col-sm-12"><strong>• Fast-learner </strong></div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of skills -->
+
+  <!-- Relevant Experience -->
+  <div class="section" id="Experience">
+    <div class="container">
+      <div class="card" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="card-body">
+              <div class="h4 mt-0 title">Relevant Experience</div>
+              <p>Nextitle - Title and Escrow Services (May 2017- August 2021)<br> <strong>Position:</strong> Team Leader <br></p>
+              <p class="nextitle">Started working in the last 2 years of University, with almost no experience in the field of financials and real estate. After just one year of hard work and strong motivation, I was offered the team leader position,
+              which I held until the summer of 2021.</p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- end of edu -->
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    var image = document.getElementsByClassName('thumbnail');
+    new simpleParallax(image, {
+      delay: .5,
+      transition: 'cubic-bezier(0,-0.18,.09,1.28)'
+    });
+
+    $(document).ready(function() {
+      $('.title').attr({
+          "data-aos": "zoom-in",
+          "data-aos-duration": "2000"
+      });
+      setTimeout(() => {
+          AOS.init();
+      }, 120);
+
+    });
+
+    $(document).ready(function() {
+      AOS.refreshHard();
+    });
+
+
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+
+        document.getElementById("navbar").style.background = "#0d6efd";
+      } else {
+
+        document.getElementById("navbar").style.background = "none";
+      }
+    };
   </script>
 </body>
 
